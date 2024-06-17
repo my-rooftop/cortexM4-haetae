@@ -19,6 +19,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "usb_host.h"
+#include "sign.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -102,6 +103,13 @@ int main(void)
   MX_SPI1_Init();
   MX_USB_HOST_Init();
   /* USER CODE BEGIN 2 */
+  uint8_t pk[CRYPTO_PUBLICKEYBYTES] = {0};
+  uint8_t sk[CRYPTO_SECRETKEYBYTES] = {0};
+
+  size_t siglen = 0;
+  uint8_t sig[CRYPTO_BYTES] = {0};
+  uint8_t msg[SEEDBYTES] = {0};
+
 
   /* USER CODE END 2 */
 
@@ -111,6 +119,17 @@ int main(void)
   {
     /* USER CODE END WHILE */
     MX_USB_HOST_Process();
+    
+    randombytes(msg, SEEDBYTES);
+
+    crypto_sign_keypair(pk, sk);
+
+
+    // crypto_sign_signature(sig, &siglen, msg, SEEDBYTES, sk);
+
+    // if (crypto_sign_verify(sig, siglen, msg, SEEDBYTES, pk)) {
+    //     return 1;
+    // }
 
     /* USER CODE BEGIN 3 */
   }

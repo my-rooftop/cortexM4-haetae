@@ -5,7 +5,7 @@
 ../Core/Src/sign.c:66:24:nonce_s_gen	1
 ../Core/Src/sign.c:69:24:nonce_e_gen	1
 ../Core/Src/sign.c:73:13:pointwise_montgomery_by_A_gen_elem_frozen	1
-../Core/Src/sign.c:103:5:cryptolab_haetae2_keypair	11
+../Core/Src/sign.c:103:5:keypair	11
 ../Core/Src/sign.c:281:13:make_hint_veck	2
 ../Core/Src/sign.c:311:13:decompose_z1_vecl	2
 ../Core/Src/sign.c:338:13:compute_z_veckl	3
@@ -15,11 +15,11 @@
 ../Core/Src/sign.c:499:13:accumulate_two_times_rounded_y2_mod_q	1
 ../Core/Src/sign.c:525:13:compute_challenge_polynomial	1
 ../Core/Src/sign.c:567:12:compress_and_pack_signature	2
-../Core/Src/sign.c:603:5:cryptolab_haetae2_signature	3
-../Core/Src/sign.c:689:5:cryptolab_haetae2_sign	2
+../Core/Src/sign.c:603:5:signature	3
+../Core/Src/sign.c:689:5:sign	2
 ../Core/Src/sign.c:705:12:unpack_cseed_z1_and_hint_from_sig	3
 ../Core/Src/sign.c:721:13:poly_csubDQ2ALPHA	2
 ../Core/Src/sign.c:730:13:poly_mul_alpha	2
 ../Core/Src/sign.c:737:13:poly_div2	2
-../Core/Src/sign.c:756:5:cryptolab_haetae2_verify	11
-../Core/Src/sign.c:882:5:cryptolab_haetae2_open	5
+../Core/Src/sign.c:756:5:verify	11
+../Core/Src/sign.c:882:5:open	5

@@ -14,13 +14,23 @@
  **************************************************/
 int32_t montgomery_reduce(int64_t a) {
     return _montgomery_reduce(a);
-    /*
+}
+
+/*************************************************
+ * Name:        _montgomery_reduce
+ *
+ * Description: Helper function for Montgomery reduction
+ *
+ * Arguments:   - int64_t: finite field element a
+ *
+ * Returns r.
+ **************************************************/
+int32_t _montgomery_reduce(int64_t a) {
     int32_t t;
 
     t = (int64_t)(int32_t)a * QINV;
     t = (a - (int64_t)t * Q) >> 32;
     return t;
-    */
 }
 
 /*************************************************

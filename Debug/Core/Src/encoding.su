@@ -6,7 +6,7 @@
 ../Core/Inc/rans_byte.h:261:20:RansEncPutSymbol	64	static
 ../Core/Inc/rans_byte.h:286:20:RansDecAdvanceSymbol	32	static
 ../Core/Inc/rans_byte.h:324:19:RansDecVerify	16	static
-../Core/Src/encoding.c:59:10:cryptolab_haetae2_encode_h	80	dynamic
-../Core/Src/encoding.c:106:10:cryptolab_haetae2_decode_h	64	static
-../Core/Src/encoding.c:150:10:cryptolab_haetae2_encode_hb_z1	80	dynamic
-../Core/Src/encoding.c:194:10:cryptolab_haetae2_decode_hb_z1	64	static
+../Core/Src/encoding.c:59:10:encode_h	80	dynamic
+../Core/Src/encoding.c:106:10:decode_h	64	static
+../Core/Src/encoding.c:150:10:encode_hb_z1	80	dynamic
+../Core/Src/encoding.c:194:10:decode_hb_z1	64	static

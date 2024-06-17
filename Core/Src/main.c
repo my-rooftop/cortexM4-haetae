@@ -112,7 +112,15 @@ int main(void)
 
 
   /* USER CODE END 2 */
-
+  uint32_t start_tick_keypair = 0;
+  uint32_t end_tick_keypair = 0;
+  uint32_t elapsed_time_keypair = 0;
+  uint32_t start_tick_sign = 0;
+  uint32_t end_tick_sign = 0;
+  uint32_t elapsed_time_sign = 0;
+  uint32_t start_tick_verify = 0;
+  uint32_t end_tick_verify = 0;
+  uint32_t elapsed_time_verify = 0;
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
@@ -121,15 +129,24 @@ int main(void)
     MX_USB_HOST_Process();
     
     randombytes(msg, SEEDBYTES);
+    for(int i = 0; i < 5000; i++) {
+      start_tick_keypair = HAL_GetTick();
+      crypto_sign_keypair(pk, sk);
+      end_tick_keypair = HAL_GetTick();
+      elapsed_time_keypair += end_tick_keypair - start_tick_keypair;
 
-    crypto_sign_keypair(pk, sk);
+      
 
+      start_tick_sign = HAL_GetTick();
+      crypto_sign_signature(sig, &siglen, msg, SEEDBYTES, sk);
+      end_tick_sign = HAL_GetTick();
+      elapsed_time_sign += end_tick_sign - start_tick_sign;
 
-    // crypto_sign_signature(sig, &siglen, msg, SEEDBYTES, sk);
-
-    // if (crypto_sign_verify(sig, siglen, msg, SEEDBYTES, pk)) {
-    //     return 1;
-    // }
+      start_tick_verify = HAL_GetTick();
+      crypto_sign_verify(sig, siglen, msg, SEEDBYTES, pk);
+      end_tick_verify = HAL_GetTick();
+      elapsed_time_verify += end_tick_verify - start_tick_verify;
+    }
 
     /* USER CODE BEGIN 3 */
   }

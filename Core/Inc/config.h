@@ -16,7 +16,7 @@
 #if HAETAE_MODE == 2
 #define CRYPTO_ALGNAME "HAETAE2"
 #define HAETAE_NAMESPACETOP haetae2
-#define HAETAE_NAMESPACE(s) cryptolab_haetae2_##s
+#define HAETAE_NAMESPACE(s) s
 #elif HAETAE_MODE == 3
 #define CRYPTO_ALGNAME "HAETAE3"
 #define HAETAE_NAMESPACETOP haetae3
@@ -25,5 +25,10 @@
 #define CRYPTO_ALGNAME "HAETAE5"
 #define HAETAE_NAMESPACETOP haetae5
 #define HAETAE_NAMESPACE(s) cryptolab_haetae5_##s
+#else
+#define CRYPTO_ALGNAME "HAETAE"
+#define HAETAE_NAMESPACETOP haetae
+#define HAETAE_NAMESPACE(s) s
 #endif
+
 #endif

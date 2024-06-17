@@ -1,7 +1,7 @@
-../Core/Src/main.c:76:5:main	3920	static
-../Core/Src/main.c:143:6:SystemClock_Config	88	static
-../Core/Src/main.c:189:13:MX_I2C1_Init	8	static
-../Core/Src/main.c:223:13:MX_I2S3_Init	8	static
-../Core/Src/main.c:257:13:MX_SPI1_Init	8	static
-../Core/Src/main.c:295:13:MX_GPIO_Init	56	static
-../Core/Src/main.c:394:6:Error_Handler	4	static,ignoring_inline_asm
+../Core/Src/main.c:76:5:main	3968	static
+../Core/Src/main.c:160:6:SystemClock_Config	88	static
+../Core/Src/main.c:206:13:MX_I2C1_Init	8	static
+../Core/Src/main.c:240:13:MX_I2S3_Init	8	static
+../Core/Src/main.c:274:13:MX_SPI1_Init	8	static
+../Core/Src/main.c:312:13:MX_GPIO_Init	56	static
+../Core/Src/main.c:411:6:Error_Handler	4	static,ignoring_inline_asm

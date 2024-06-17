@@ -13,18 +13,8 @@
 #define montgomery_reduce HAETAE_NAMESPACE(montgomery_reduce)
 int32_t montgomery_reduce(int64_t a);
 
-
 #define _montgomery_reduce HAETAE_NAMESPACE(_montgomery_reduce)
-inline int32_t _montgomery_reduce(int64_t a) {
-    int32_t t;
-
-    t = (int64_t)(int32_t)a * QINV;
-    t = (a - (int64_t)t * Q) >> 32;
-    return t;
-}
-
-
-
+int32_t _montgomery_reduce(int64_t a);
 
 #define caddq HAETAE_NAMESPACE(caddq)
 int32_t caddq(int32_t a);

@@ -10,7 +10,7 @@
 ../Core/Src/fixpoint.c:47:13:fixpoint_unsigned_signed_mul	56	static
 ../Core/Src/fixpoint.c:55:13:fixpoint_sub	40	static
 ../Core/Src/fixpoint.c:61:13:fixpoint_sub_from_threehalves	24	static
-../Core/Src/fixpoint.c:67:6:cryptolab_haetae2_fixpoint_square	120	static
-../Core/Src/fixpoint.c:111:6:cryptolab_haetae2_fixpoint_newton_invsqrt	56	static
-../Core/Src/fixpoint.c:127:9:cryptolab_haetae2_fixpoint_mul_rnd13	80	static
-../Core/Src/fixpoint.c:138:6:cryptolab_haetae2_fixpoint_add	40	static
+../Core/Src/fixpoint.c:67:6:fixpoint_square	120	static
+../Core/Src/fixpoint.c:111:6:fixpoint_newton_invsqrt	56	static
+../Core/Src/fixpoint.c:127:9:fixpoint_mul_rnd13	80	static
+../Core/Src/fixpoint.c:138:6:fixpoint_add	40	static

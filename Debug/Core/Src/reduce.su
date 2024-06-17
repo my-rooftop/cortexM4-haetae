@@ -1,5 +1,6 @@
-../Core/Src/reduce.c:15:9:cryptolab_haetae2_montgomery_reduce	16	static
-../Core/Src/reduce.c:35:9:cryptolab_haetae2_caddq	16	static
-../Core/Src/reduce.c:50:9:cryptolab_haetae2_freeze	136	static
-../Core/Src/reduce.c:68:9:cryptolab_haetae2_reduce32_2q	176	static
-../Core/Src/reduce.c:88:9:cryptolab_haetae2_freeze2q	144	static
+../Core/Src/reduce.c:15:9:montgomery_reduce	16	static
+../Core/Src/reduce.c:28:9:_montgomery_reduce	56	static
+../Core/Src/reduce.c:45:9:caddq	16	static
+../Core/Src/reduce.c:60:9:freeze	136	static
+../Core/Src/reduce.c:78:9:reduce32_2q	176	static
+../Core/Src/reduce.c:98:9:freeze2q	144	static

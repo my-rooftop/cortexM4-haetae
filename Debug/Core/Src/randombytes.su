@@ -1,0 +1,3 @@
+../Core/Src/randombytes.c:52:13:surf	88	static
+../Core/Src/randombytes.c:91:6:randombytes_regen	48	static
+../Core/Src/randombytes.c:115:5:randombytes	16	static

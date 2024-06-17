@@ -1,0 +1,6 @@
+../Core/Src/packing.c:18:6:cryptolab_haetae2_pack_pk	32	static
+../Core/Src/packing.c:39:6:cryptolab_haetae2_unpack_pk	32	static
+../Core/Src/packing.c:62:6:cryptolab_haetae2_pack_sk	32	static
+../Core/Src/packing.c:97:6:cryptolab_haetae2_unpack_sk	40	static
+../Core/Src/packing.c:160:5:cryptolab_haetae2_pack_sig	1584	static
+../Core/Src/packing.c:234:5:cryptolab_haetae2_unpack_sig	40	static

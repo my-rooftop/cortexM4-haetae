@@ -1,0 +1,12 @@
+../Core/Inc/rans_byte.h:56:20:RansEncInit	1
+../Core/Inc/rans_byte.h:93:20:RansEncFlush	1
+../Core/Inc/rans_byte.h:109:19:RansDecInit	3
+../Core/Inc/rans_byte.h:128:24:RansDecGet	1
+../Core/Inc/rans_byte.h:136:20:RansDecAdvance	5
+../Core/Inc/rans_byte.h:261:20:RansEncPutSymbol	3
+../Core/Inc/rans_byte.h:286:20:RansDecAdvanceSymbol	1
+../Core/Inc/rans_byte.h:324:19:RansDecVerify	2
+../Core/Src/encoding.c:59:10:cryptolab_haetae2_encode_h	6
+../Core/Src/encoding.c:106:10:cryptolab_haetae2_decode_h	7
+../Core/Src/encoding.c:150:10:cryptolab_haetae2_encode_hb_z1	5
+../Core/Src/encoding.c:194:10:cryptolab_haetae2_decode_hb_z1	6

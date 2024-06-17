@@ -1,0 +1,5 @@
+../Core/Src/reduce.c:15:9:cryptolab_haetae2_montgomery_reduce	16	static
+../Core/Src/reduce.c:35:9:cryptolab_haetae2_caddq	16	static
+../Core/Src/reduce.c:50:9:cryptolab_haetae2_freeze	136	static
+../Core/Src/reduce.c:68:9:cryptolab_haetae2_reduce32_2q	176	static
+../Core/Src/reduce.c:88:9:cryptolab_haetae2_freeze2q	144	static

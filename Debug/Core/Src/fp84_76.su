@@ -1,0 +1,13 @@
+../Core/Src/fp84_76.c:8:6:fp_convert_84_76_to_96_76	128	static
+../Core/Src/fp84_76.c:21:24:low_word	16	static
+../Core/Src/fp84_76.c:25:23:extract_bits_20_to_27	16	static
+../Core/Src/fp84_76.c:30:23:assemble_8_and_20_bits	16	static
+../Core/Src/fp84_76.c:45:6:cryptolab_haetae2_fp84_76_square	264	static
+../Core/Src/fp84_76.c:100:6:cryptolab_haetae2_fp84_76_mul	368	static
+../Core/Src/fp84_76.c:157:6:cryptolab_haetae2_fp84_76_mul_high	168	static
+../Core/Src/fp84_76.c:191:6:cryptolab_haetae2_convert_fp112_76_to_fp96_76	128	static
+../Core/Src/fp84_76.c:210:6:cryptolab_haetae2_conditional_accumulate_fp112_96	24	static
+../Core/Src/fp84_76.c:219:6:cryptolab_haetae2_normalize_fp112_96	40	static
+../Core/Src/fp84_76.c:245:6:cryptolab_haetae2_convert_fp96_76_to_fp112_76	48	static
+../Core/Src/fp84_76.c:267:9:cryptolab_haetae2_first_is_lt_second_fp112_76	24	static
+../Core/Src/fp84_76.c:277:6:set_to_zero_112	16	static

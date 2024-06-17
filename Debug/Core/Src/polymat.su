@@ -1,0 +1,8 @@
+../Core/Src/polymat.c:18:13:expand_a_gen_mod_q_elem	32	static
+../Core/Src/polymat.c:38:13:expand_b_mod_q_elem	1056	static
+../Core/Src/polymat.c:92:6:cryptolab_haetae2_expand_pk_matrix_elem_frozen	1064	static
+../Core/Src/polymat.c:120:6:cryptolab_haetae2_polymatkl_expand	24	static
+../Core/Src/polymat.c:139:6:cryptolab_haetae2_polymatkm_expand	24	static
+../Core/Src/polymat.c:148:6:cryptolab_haetae2_polymatkl_double	32	static
+../Core/Src/polymat.c:159:6:cryptolab_haetae2_polymatkl_pointwise_montgomery	32	static
+../Core/Src/polymat.c:168:6:cryptolab_haetae2_polymatkm_pointwise_montgomery	32	static

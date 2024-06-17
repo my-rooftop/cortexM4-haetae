@@ -1,0 +1,7 @@
+../Core/Src/symmetric-shake.c:6:6:cryptolab_haetae2_haetae_shake128_stream_init	1
+../Core/Src/symmetric-shake.c:19:6:cryptolab_haetae2_haetae_shake256_stream_init	1
+../Core/Src/symmetric-shake.c:31:6:cryptolab_haetae2_haetae_shake256_absorb_twice	1
+../Core/Src/symmetric-shake.c:40:6:cryptolab_haetae2_haetae_shake256_absorb_once	1
+../Core/Src/symmetric-shake.c:47:6:cryptolab_haetae2_haetae_shake256_squeezeblocks	1
+../Core/Src/symmetric-shake.c:52:6:cryptolab_haetae2_haetae_shake128_stream_squeezeblocks	1
+../Core/Src/symmetric-shake.c:56:6:cryptolab_haetae2_haetae_shake256_stream_squeezeblocks	1

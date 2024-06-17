@@ -1,0 +1,7 @@
+../Core/Src/fft.c:133:23:_mulrnd16	48	static
+../Core/Src/fft.c:138:23:_complex_mul_real	32	static
+../Core/Src/fft.c:143:23:_complex_mul_imag	32	static
+../Core/Src/fft.c:148:13:_complex_mul	24	static
+../Core/Src/fft.c:191:6:fft_bitrev	24	static
+../Core/Src/fft.c:205:9:complex_fp_sqabs	24	static
+../Core/Src/fft.c:209:6:fft	80	static

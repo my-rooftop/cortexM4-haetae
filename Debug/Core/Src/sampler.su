@@ -1,0 +1,17 @@
+../Core/Src/sampler.c:26:14:cryptolab_haetae2_rej_uniform	40	static
+../Core/Src/sampler.c:56:14:cryptolab_haetae2_rej_uniform_frozen	40	static
+../Core/Src/sampler.c:86:16:mod3	24	static
+../Core/Src/sampler.c:94:16:mod3_leq26	24	static
+../Core/Src/sampler.c:101:16:mod3_leq8	24	static
+../Core/Src/sampler.c:107:14:cryptolab_haetae2_rej_eta	48	static
+../Core/Src/sampler.c:164:24:read_gauss16_asm	24	static,ignoring_inline_asm
+../Core/Src/sampler.c:174:16:read_rej_asm	48	static,ignoring_inline_asm
+../Core/Src/sampler.c:186:6:read_y_typepunning	16	static
+../Core/Src/sampler.c:199:20:read_y	32	static,ignoring_inline_asm
+../Core/Src/sampler.c:218:23:signed_clear_lsb	24	static
+../Core/Src/sampler.c:235:24:compute_y84_rnd	80	static
+../Core/Src/sampler.c:260:24:compute_exp_in	56	static
+../Core/Src/sampler.c:270:24:is_zero	24	static
+../Core/Src/sampler.c:284:5:cryptolab_haetae2_sample_gauss_sigma76	80	static
+../Core/Src/sampler.c:319:5:cryptolab_haetae2_sample_gauss	64	static
+../Core/Src/sampler.c:352:6:cryptolab_haetae2_sample_gauss_N	4624	static
